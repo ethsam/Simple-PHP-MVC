@@ -1,5 +1,8 @@
+<?php
+    error_reporting(-1); //activation affichage erreur
+?>
 <!DOCTYPE html>
-<?php require('config.php'); ?>
+<?php //require('config.php'); //pas nécéssaire vue que model.php appel deja config.php?> 
 <?php require('model/model_base.php'); ?>
 
 <html lang="<?php echo $codelang; ?>">
@@ -23,8 +26,8 @@
   <body>
 
     <?php
-        $test = get_list_vehicule_avec_chauffeur();
-        var_dump($test);
+     $list_voiture = get_list_vehicule_avec_chauffeur(1, 30);
+     var_dump($list_voiture);
      ?>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

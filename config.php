@@ -8,11 +8,11 @@ $sitetitle = 'titre du site';
 
 //BDD
 $host = 'localhost';
-$bdd = 'testmvc';
+$bdd = 'adcpremiumphp';
 $userbdd = 'root';
 $passbdd = 'root';
 
 //URL
-$urlsite = 'http://localhost:8888';
+//$urlsite = 'http://localhost:8888';
 
  ?>
